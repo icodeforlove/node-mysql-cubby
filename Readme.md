@@ -1,6 +1,6 @@
 ## cubby
 
-a cubby that uses mysql
+a cubby that uses mysql (there is also a [flat file version](https://github.com/icodeforlove/node-cubby))
 
 works well as a simple json datastore
 
