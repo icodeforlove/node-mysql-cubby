@@ -4,6 +4,10 @@ a cubby that uses mysql (there is also a [flat file version](https://github.com/
 
 works well as a simple json datastore
 
+## dependency
+
+* node-mysql - https://github.com/felixge/node-mysql
+
 ## installation
 
     $ npm install mysql-cubby
