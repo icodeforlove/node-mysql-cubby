@@ -19,7 +19,7 @@ var mysql = require('mysql'),
 
 connection.connect();
 
-var cubby = new Cubby({connection: connection /*table: '', name: ''*/});
+var cubby = new Cubby({connection: connection /*, table: '', name: ''*/});
 
 cubby.load(function () {
 	cubby.set('foo', 'bar');
@@ -49,8 +49,8 @@ cubby.load(function () {
 by default creating a cubby will result in a cubby table with a row named default, you may override them like this
 
 ```javascript
-var cubbyOne = new Cubby({connection: connection table: 'datastore', name: 'one'}),
-	cubbyTwo = new Cubby({connection: connection table: 'datastore', name: 'two'});
+var cubbyOne = new Cubby({connection: connection, table: 'datastore', name: 'one'}),
+	cubbyTwo = new Cubby({connection: connection, table: 'datastore', name: 'two'});
 ```
 
 ## paths
