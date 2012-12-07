@@ -6,7 +6,7 @@ works well as a simple json datastore
 
 ## installation
 
-    $ npm install cubby-mysql
+    $ npm install mysql-cubby
 
 ## usage
 
